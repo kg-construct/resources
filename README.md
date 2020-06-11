@@ -8,7 +8,7 @@ To contribute to any of the lists:
 
 Option 1 (recommendable):
 - Make a fork of the repository to your own personal account.
-- Copy the template of the list (always at the top of the file) you want to edit at the end of the file.md
+- Copy the template of the list you want to edit (always at the top of the file) and put it at the end of the file.md
 - Fill the template with the requested information.
 - Make a pull request.
 
