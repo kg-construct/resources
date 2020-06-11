@@ -11,6 +11,7 @@
     - Sizes or Generator:
 - Purpose: (Virtual KG /Materialized KG/Both)
 - Supported mapping language(s):
+- Target and source models:
 - Contact point:
 - DOI:
 - License:
@@ -26,6 +27,7 @@
     - Sizes or Generator: Generator (based in VIG)
 - Purpose: (Virtual KG /Materialized KG/Both): Virtual KG
 - Supported mapping language(s): RML, R2RML, xR2RML, CSVW
+- Target and source models: Ontology (http://vocab.gtfs.org/gtfs.ttl), source (https://developers.google.com/transit/gtfs)
 - Contact point: David Chaves (dchaves@fi.upm.es)
 - DOI: https://doi.org/10.5281/zenodo.3574493
 - License: Apache-2.0
