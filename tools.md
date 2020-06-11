@@ -1,7 +1,7 @@
 # Knwoledge Graph Construction Tools
 Description of the tools for knowledge graph construction
 
-# Tool X (TEMPLATE):
+## Tool X (TEMPLATE):
 - Name of the tool:
 - Description:
 - Repository (link to the tool’s repository):
@@ -20,7 +20,7 @@ Description of the tools for knowledge graph construction
 - Related projects: (specify projects (if any) where the tool is used, ideally provide links to the projects descriptions)
 
 
-# Morph-CSV by OEG-UPM:
+## Morph-CSV by OEG-UPM:
 - Name of the tool: Morph-CSV
 - Description: Morph-CSV is an open source tool for querying tabular data sources using SPARQL. It exploits the information from the query, RML+FnO mappings and CSVW metadata to enhance the performance and completness of traditional OBDA systems (SPARQL-to-SQL translators). At this moment can be embebed in the top of any R2RML-compliant system.
 - Repository: https://github.com/oeg-upm/morph-csv
