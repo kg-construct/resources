@@ -1,7 +1,7 @@
 # Evaluation Systems for Knowledge Graph Construction
 
 
-## Evaluation System (Template):
+## Evaluation System X (Template):
 - **Name**: 
 - **Description**:
 - **Repository/Website**:
@@ -17,7 +17,7 @@
 - **License**:
 
 
-## Madrid-GTFS-Bench by OEG-UPM:
+## Evaluation System 1:
 - **Name**: Madrid-GTFS-Bench
 - **Description**: Benchmarking for virutal knowledge graph access in the transport domain. 
 - **Repository/Website**: https://github.com/oeg-upm/gtfs-bench
