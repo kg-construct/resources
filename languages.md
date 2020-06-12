@@ -1,6 +1,6 @@
 # Mapping Languages for Knowledge Graph Construction
 
-## Mapping Language 1:
+## Mapping Language X:
 - **Name**:
 - **specification**: 
 - **year**:
