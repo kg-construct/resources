@@ -54,5 +54,5 @@ Description of the tools for knowledge graph construction
 - **DOI**: N/A
 - **License**: Free community edition with limitations and paid edition without limitations. 
 - **Test cases**: None
-- **Related use cases**: (specify use cases shared with the community group (if any) where the tool is used)
-- **Related projects**: (specify projects (if any) where the tool is used, ideally provide links to the projects descriptions)
+- **Related use cases**: None
+- **Related projects**: [DyVerSIFy](https://www.imec-int.com/en/what-we-offer/research-portfolio/dyversify), [MOS2S](https://www.mos2s.eu/), [COMBUST](https://www.imec-int.com/en/what-we-offer/research-portfolio/combust)
