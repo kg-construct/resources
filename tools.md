@@ -37,3 +37,22 @@ Description of the tools for knowledge graph construction
 - **License**: Apache-2.0
 - **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/oeg-publictransport.md
 - **Related projects**: http://sprint-transport.eu/
+
+## Tool 2:
+- **Name of the tool**: RMLEditor
+- **Description**: The RMLEditor offers a graphical user interface to create rules to generate knowledge graphs based on heterogeneous data sources.
+- **Repository (link to the tool’s repository)**: https://github.com/RMLio/rmleditor-ce
+- **Website (if is different to the repository)**: https://app.rml.io/rmleditor/
+- **Open source? (If not open sourced, ideally provide an option to test it)**: No
+- **Year introduced**: 2016
+- **Contact person (who is the main contact person?)**: Pieter Heyvaert (pieter.heyvaert@ugent.be)
+- **Purpose (what can one do with the tool?)**: editor
+- **Mapping language**: [R2]RML
+- **Supported data (formats, sizes)**: CSV, JSON, XML
+- **Programming language**: HTML/CSS/JS
+- **Special features**: Uses LOV to find relevant classes and properties. Uses MapVOWL to visualize rules.
+- **DOI**: N/A
+- **License**: Free community edition with limitations and paid edition without limitations. 
+- **Test cases**: None
+- **Related use cases**: (specify use cases shared with the community group (if any) where the tool is used)
+- **Related projects**: (specify projects (if any) where the tool is used, ideally provide links to the projects descriptions)
