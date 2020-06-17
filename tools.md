@@ -80,3 +80,20 @@ Description of the tools for knowledge graph construction
 [ESSENCE]: https://www.imec-int.com/en/what-we-offer/research-portfolio/essence
 [DAIQUIRI]: https://www.imec-int.com/en/what-we-offer/research-portfolio/daiquiri
 [DiSSeCt]: https://dissectsite.wordpress.com/
+
+## Tool 4:
+- **Name of the tool**: Morph-RDB
+- **Description**: Morph-RDB is an open source Ontology Based Data Access system for transforming SQL data into RDF graph and querying the RDF graph with SPARQL. Morph-RDB can be used together with Morph-CSV to transform and query CSV files.
+- **Repository**: https://github.com/oeg-upm/morph-rdb
+- **Website**: https://morph.oeg.fi.upm.es/tool/morph-rdb
+- **Open source**: Yes
+- **Year introduced**: 2014
+- **Contact person**: David Chaves (dchaves@fi.upm.es)
+- **Purpose**: Processor
+- **Mapping language**: R2RML
+- **Supported data**: SQL (tested with MySQL and PostgreSQL)
+- **Programming language**: Scala + Java
+- **DOI**: N/A
+- **License**: Apache-2.0
+- **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/oeg-publictransport.md
+- **Related projects**: http://sprint-transport.eu/
