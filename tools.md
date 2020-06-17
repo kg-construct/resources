@@ -5,7 +5,7 @@ Description of the tools for knowledge graph construction
 - **Name of the tool**:
 - **Description**:
 - **Repository (link to the tool’s repository)**:
-- **Website (if is different to the repository)**;
+- **Website (if is different to the repository)**:
 - **Open source? (If not open sourced, ideally provide an option to test it)**:
 - **Year introduced**:
 - **Contact person (who is the main contact person?)**:
@@ -114,3 +114,20 @@ Description of the tools for knowledge graph construction
 - **License**: Apache-2.0
 - **Related use cases**: N/A
 - **Related projects**: N/A
+
+## Tool 6:
+- **Name of the tool**: Mapeathor
+- **Description**: Mapeathor is a simple spreadsheet parser able to generate mapping rules in three mapping languages: R2RML, RML (with extension to functions from FnO) and YARRRML. It takes the mapping rules expressed in a spreadsheet (designed to facilitate the mapping rule writting process) and transforms them into the desired language. 
+- **Repository (link to the tool’s repository)**: https://github.com/oeg-upm/Mapeathor
+- **Website (if is different to the repository)**: https://morph.oeg.fi.upm.es/tool/mapeathor
+- **Open source? (If not open sourced, ideally provide an option to test it)**: Yes
+- **Year introduced**: 2019
+- **Contact person (who is the main contact person?)**: Ana Iglesias (ana.iglesiasm@upm.es)
+- **Purpose (what can one do with the tool?)**: Editor
+- **Mapping language**: R2RML, RML, YARRRML
+- **Supported data (formats, sizes)**: Excel
+- **Programming language**: Python
+- **License**: Apache-2.0
+- **Test cases**: None
+- **Related use cases**: None
+- **Related projects**: [Ciudades Abiertas](http://www.ciudadesabiertas.es/)
