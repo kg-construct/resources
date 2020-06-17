@@ -97,3 +97,20 @@ Description of the tools for knowledge graph construction
 - **License**: Apache-2.0
 - **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/oeg-publictransport.md
 - **Related projects**: http://sprint-transport.eu/
+
+## Tool 5:
+- **Name of the tool**: Morph-GraphQL
+- **Description**: Morph-GraphQL is an open source system for generating GraphQL servers automatically from declarative mappings such as R2RML or RML. Currently, Morph-GraphQL is able to generate GraphQL servers in JavaScript and SQL databases. Current experimental features include the generation of GraphQL server in other languages (e.g. Java) and other data models (e.g. MongoDB)
+- **Repository**: https://github.com/oeg-upm/morph-graphql
+- **Website**: https://morph.oeg.fi.upm.es/tool/morph-graphql
+- **Open source**: Yes
+- **Year introduced**: 2019
+- **Contact person**: David Chaves (dchaves@fi.upm.es)
+- **Purpose**: Processor
+- **Mapping language**: R2RML and RML
+- **Supported data**: SQL (tested with H2) and NoSQL (experimental, tested with MongoDB)
+- **Programming language**: JavaScript/Node.js
+- **DOI**: N/A
+- **License**: Apache-2.0
+- **Related use cases**: N/A
+- **Related projects**: N/A
