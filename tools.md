@@ -81,7 +81,41 @@ Description of the tools for knowledge graph construction
 [DAIQUIRI]: https://www.imec-int.com/en/what-we-offer/research-portfolio/daiquiri
 [DiSSeCt]: https://dissectsite.wordpress.com/
 
-## Tool 4:
+## Tool 4:
+- **Name of the tool**: Morph-RDB
+- **Description**: Morph-RDB (formerly called ODEMapster) is an RDB2RDF engine developed by the Ontology Engineering Group, that follows the R2RML specification (http://www.w3.org/TR/r2rml/).This engine supports two operational modes: data upgrade (generating RDF instances from data in a relational database) and query translation (SPARQL to SQL). Morph-RDB employs various optimisation techniques in order to generate efficient SQL queries, such as self-join elimination and subquery elimination. 
+- **Repository**: https://github.com/oeg-upm/morph-rdb
+- **Website**: https://morph.oeg.fi.upm.es/tool/morph-rdb
+- **Open source**: Yes
+- **Year introduced**: 2014
+- **Contact person**: David Chaves (dchaves@fi.upm.es)
+- **Purpose**: Processor
+- **Mapping language**: R2RML
+- **Supported data**: SQL (tested with MySQL and PostgreSQL)
+- **Programming language**: Scala + Java
+- **DOI**: N/A
+- **License**: Apache-2.0
+- **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/oeg-publictransport.md
+- **Related projects**: http://sprint-transport.eu/, https://www.mobile-age.eu/, https://bimerr.eu/
+
+## Tool 5:
+- **Name of the tool**: Morph-GraphQL
+- **Description**: Morph-GraphQL is an open source system for generating GraphQL servers automatically from declarative mappings such as R2RML or RML. Currently, Morph-GraphQL is able to generate GraphQL servers in JavaScript and SQL databases. Current experimental features include the generation of GraphQL server in other languages (e.g. Java) and other data models (e.g. MongoDB)
+- **Repository**: https://github.com/oeg-upm/morph-graphql
+- **Website**: https://morph.oeg.fi.upm.es/tool/morph-graphql
+- **Open source**: Yes
+- **Year introduced**: 2019
+- **Contact person**: David Chaves (dchaves@fi.upm.es)
+- **Purpose**: Processor
+- **Mapping language**: R2RML and RML
+- **Supported data**: SQL (tested with H2) and NoSQL (experimental, tested with MongoDB)
+- **Programming language**: JavaScript/Node.js
+- **DOI**: N/A
+- **License**: Apache-2.0
+- **Related use cases**: N/A
+- **Related projects**: N/A
+
+## Tool 6:
 - **Name of the tool**: Mapeathor
 - **Description**: Mapeathor is a simple spreadsheet parser able to generate mapping rules in three mapping languages: R2RML, RML (with extension to functions from FnO) and YARRRML. It takes the mapping rules expressed in a spreadsheet (designed to facilitate the mapping rule writting process) and transforms them into the desired language. 
 - **Repository (link to the tool’s repository)**: https://github.com/oeg-upm/Mapeathor
