@@ -31,3 +31,21 @@
 - **Contact point**: David Chaves (dchaves@fi.upm.es)
 - **DOI**: https://doi.org/10.5281/zenodo.3574493
 - **License**: Apache-2.0
+
+
+
+## Evaluation System 2:
+- **Name**: KGC Parameters
+- **Description**: Parameters that affect the construction of a Knowledge Graph
+- **Repository/Website**: https://github.com/SDM-TIB/KGC-Param-Eval
+- **Main Features**: Join-Selectivity, Join-Duplicates, Relation-Types (1-N,N-1,N-M), Data-Paritioning
+- **Supported data sources and formats**:
+    - **Data format**: CSV
+    - **Sizes or Generator**: Ad-hoc generator in Python
+- **Purpose(Virtual KG /Materialized KG/Both)**: Materialized Knowledge Graph 
+- **Supported mapping language(s)**: RML
+- **Target and source models**: N/A 
+- **Contact point**: David Chaves (dchaves@fi.upm.es)
+- **DOI**: N/A
+- **License**: MIT
+
