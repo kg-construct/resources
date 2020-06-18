@@ -147,5 +147,5 @@ Description of the tools for knowledge graph construction
 - **DOI**: https://doi.org/10.5281/zenodo.3872103
 - **License**: Apache-2.0
 - **Test cases**: https://rml.io/test-cases/
-- **Related use cases**: 
+- **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/sdm-genomics.md
 - **Related projects**: [iASiS](http://project-iasis.eu/), [BigMedilytics - lung cancer pilot](https://www.bigmedilytics.eu/), [CLARIFY](https://www.clarify2020.eu/), [P4-LUCAT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/p4-lucat), [ImProVIT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/improvit), [PLATOON](https://platoon-project.eu/)
