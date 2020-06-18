@@ -131,3 +131,21 @@ Description of the tools for knowledge graph construction
 - **Test cases**: None
 - **Related use cases**: None
 - **Related projects**: [Ciudades Abiertas](http://www.ciudadesabiertas.es/)
+
+## Tool 7:
+- **Name of the tool**: SDM-RDFizer
+- **Description**: SDM-RDFizer is an interpreter of mapping rules that allows the transformation of (un)structured data into RDF knowledge graphs.
+- **Repository (link to the tool’s repository)**: https://github.com/SDM-TIB/SDM-RDFizer
+- **Open source? (If not open sourced, ideally provide an option to test it)**: Yes
+- **Year introduced**: 2017
+- **Contact person (who is the main contact person?)**: Enrique Iglesias (s6enigle@uni-bonn.de)
+- **Purpose (what can one do with the tool?)**:  Transformation of (un)structured data into RDF knowledge graphs by an efficient execution of RML triple maps.
+- **Mapping language**: RML (current version)
+- **Supported data (formats, sizes)**: CSV, JSON, RDB, XML
+- **Programming language**: Python
+- **Special features**: The SDM-RDFizer implements optimized data structures and relational algebra operators that enable an efficient execution of RML triple maps even in the presence of Big data. SDM-RDFizer is also extensible in terms of supported data formats, Configurable and extensible data processing functions using https://FnO.io
+- **DOI**: https://doi.org/10.5281/zenodo.3872103
+- **License**: Apache-2.0
+- **Test cases**: https://rml.io/test-cases/
+- **Related use cases**: betweenourworlds-anime, idlab-covid19, idlab-dbpedia, idlab-facebook, idlab-twitter, idlab-velopark
+- **Related projects**: [iASiS](http://project-iasis.eu/), [BigMedilytics - lung cancer pilot](https://www.bigmedilytics.eu/), [CLARIFY](https://www.clarify2020.eu/), [P4-LUCAT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/p4-lucat), [ImProVIT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/improvit), [PLATOON](https://platoon-project.eu/)
