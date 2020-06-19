@@ -149,3 +149,25 @@ Description of the tools for knowledge graph construction
 - **Test cases**: https://rml.io/test-cases/
 - **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/sdm-genomics.md
 - **Related projects**: [iASiS](http://project-iasis.eu/), [BigMedilytics - lung cancer pilot](https://www.bigmedilytics.eu/), [CLARIFY](https://www.clarify2020.eu/), [P4-LUCAT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/p4-lucat), [ImProVIT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/improvit), [PLATOON](https://platoon-project.eu/)
+
+## Tool 8:
+- **Name of the tool**: RMLStreamer
+- **Description**: The RMLStreamer executes RML rules to generate high quality Linked Data from multiple originally (semi-)structured data sources in a streaming way. 
+- **Repository (link to the tool’s repository)**: https://github.com/RMLio/RMLStreamer
+- **Website (if is different to the repository)**: https://rml.io
+- **Open source? (If not open sourced, ideally provide an option to test it)**: Yes
+- **Year introduced**: 2019
+- **Contact person (who is the main contact person?)**: Gerald Haesendonck (gerald.haesendonck@ugent.be)
+- **Purpose (what can one do with the tool?)**: Processor
+- **Mapping language**: RML
+- **Supported data (formats, sizes)**: formats: CSV, XML, JSON; media: files, TCP sockets, Kafka topics
+- **Programming language**: Scala
+- **Special features**: Extensible in terms of supported data formats and media, optimised for processing big data sets and contious data streams, designed to run on a cluster.
+- **DOI**: https://doi.org/10.5281/zenodo.3887065
+- **License**: MIT
+- **Test cases**: https://rml.io/test-cases/
+- **Related use cases**: idlab-twitter
+- **Related projects**: [MOS2S], [DyVerSIFy], [ESSENCE], [DAIQUIRI]
+
+[MOS2S]: https://www.mos2s.eu/
+[DyVerSIFy]: https://www.imec-int.com/en/what-we-offer/research-portfolio/dyversify
