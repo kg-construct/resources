@@ -149,3 +149,22 @@ Description of the tools for knowledge graph construction
 - **Test cases**: https://rml.io/test-cases/
 - **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/sdm-genomics.md
 - **Related projects**: [iASiS](http://project-iasis.eu/), [BigMedilytics - lung cancer pilot](https://www.bigmedilytics.eu/), [CLARIFY](https://www.clarify2020.eu/), [P4-LUCAT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/p4-lucat), [ImProVIT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/improvit), [PLATOON](https://platoon-project.eu/)
+
+## Tool 8:
+- **Name of the tool**: LOD2CMS
+- **Description**: A suite of plugins for the Open Source content management system Drupal, allowing the creation of a knowledge graph through a webinterface.
+- **Repository (link to the tool’s repository)**: https://github.com/ec-europa/sparql_entity_storage, https://github.com/ec-europa/rdf_entity
+- **Website (if is different to the repository)**: https://www.drupal.org/project/sparql_entity_storage, https://www.drupal.org/project/rdf_entity
+- **Open source? (If not open sourced, ideally provide an option to test it)**: Yes, development sponsored be the ISA program of the European Commission.
+- **Year introduced**: 2018
+- **Contact person (who is the main contact person?)**: Sander Van Dooren (sander@essentialcomplexity.eu)
+- **Purpose (what can one do with the tool?)**: Editor
+- **Mapping language**: Mapping to CMS objects through CMS configuration
+- **Supported data (formats, sizes)**: SPARQL
+- **Programming language**: PHP
+- **Special features**: Fast creation of websites based on knowledge graphs, with support for content negotiation.
+- **DOI**: N/A
+- **License**: EUPL
+- **Test cases**: https://github.com/ec-europa/sparql_entity_storage/tree/8.x-1.x/tests, https://github.com/ec-europa/rdf_entity/tree/8.x-1.x/tests
+- **Related use cases**: Joinup.eu, other European Commission websites (referencing shared SKOS taxonomies)
+- **Related projects**: https://github.com/openeuropa/rdf_skos/
