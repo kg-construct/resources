@@ -166,7 +166,7 @@ Description of the tools for knowledge graph construction
 - **DOI**: https://doi.org/10.5281/zenodo.3887065
 - **License**: MIT
 - **Test cases**: https://rml.io/test-cases/
-- **Related use cases**: idlab-twitter
+- **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/idlab-twitter.md
 - **Related projects**: [MOS2S], [DyVerSIFy], [ESSENCE], [DAIQUIRI]
 
 [MOS2S]: https://www.mos2s.eu/
