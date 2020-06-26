@@ -178,11 +178,9 @@ Description of the tools for knowledge graph construction
 - **Description**:
     The SPARQL Micro-Service architecture [1, 2] is meant to unlock data silos hidden behind proprietary Web APIs by equipping them with a lightweight SPARQL endpoint. The whole idea is about bringing Web APIs into the Web of Data and making it possible to integrate Linked Data and Web APIs within a simple federated SPARQL query. 
     
-    A SPARQL micro-service encapsulates a Web API and typically yields a **small, resource-centric graph** generated dynamically.     
-    It can be seen as a **configurable SPARQL endpoint** in that it expects parameters, e.g. a SPARQL micro-service to find photos from Snapshat will expect tags. The parameters can be provided in the SPARQL graph pattern or on the endpoint URL.
+    A SPARQL micro-service encapsulates a Web API and typically yields a **small, resource-centric graph** generated dynamically. It can be seen as a **configurable** SPARQL endpoint in that it expects parameters, e.g. a SPARQL micro-service to find photos from Snapshat may expect tags.
     
-    An interesting use of SPARQL micro-services is to **assign dereferenceable URIs to Web API resources** that do not have a URI in the first place. For instance, https://sparql-micro-services.org/ld/flickr/photo/31173091626 is the dereferenceable URI of a photo in Flickr. The content is generated dynamically based on the photo identifier.
-
+    An interesting use of SPARQL micro-services is to **assign dereferenceable URIs to Web API resources** that do not have URIs in the first place. For instance, https://sparql-micro-services.org/ld/flickr/photo/31173091626 is the dereferenceable URI of a photo in Flickr. The content is generated dynamically based on the photo identifier.
 - **Repository (link to the tool’s repository)**: https://github.com/frmichel/sparql-micro-service
 - **Website (if is different to the repository)**: example SPARQL micro-services: https://sparql-micro-services.org/
 - **Open source? (If not open sourced, ideally provide an option to test it)**: yes
