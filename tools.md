@@ -176,7 +176,7 @@ Description of the tools for knowledge graph construction
 ## Tool 9:
 - **Name of the tool**: SPARQL micro-services
 - **Description**:
-    The SPARQL Micro-Service architecture [1, 2] is meant to unlock data silos hidden behind proprietary Web APIs by equipping them with a lightweight SPARQL endpoint. The whole idea is about bringing Web APIs into the Web of Data and making it possible to integrate Linked Data and Web APIs within a simple federated SPARQL query. 
+    The SPARQL Micro-Service architecture is meant to unlock data silos hidden behind proprietary Web APIs by equipping them with a lightweight SPARQL endpoint. The whole idea is about bringing Web APIs into the Web of Data and making it possible to integrate Linked Data and Web APIs within a simple federated SPARQL query. 
     
     A SPARQL micro-service encapsulates a Web API and typically yields a **small, resource-centric graph** generated dynamically. It can be seen as a **configurable** SPARQL endpoint in that it expects parameters, e.g. a SPARQL micro-service to find photos from Snapshat may expect tags.
     
@@ -196,16 +196,9 @@ Description of the tools for knowledge graph construction
     - Provide provenance information as part of the graph generated
     - Simple configuration with a config.ini file, or with rich SPARQL Sescription Description and SHACL shapes graph
     - Dynamic generation of HTML documentation + test interface from the SPARQL micro-service Sescription Description see [example](https://sparql-micro-services.org/service/flickr/getPhotosByTags_sd/))
-    - Autmatic markup of HTML documentation as schema.org Dataset to allow webscale discoverability [3] of SPARQL micro-services, e.g. with Google Dataset Search
+    - Autmatic markup of HTML documentation as schema.org Dataset to allow webscale discoverability of SPARQL micro-services, e.g. with Google Dataset Search
 - **DOI**: n/a
 - **License**: Apache 2.0
 - **Test cases**: n/a
 - **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/inria-kg-vs-webapis.md
 - **Related projects**: [Taxref-Web](https://taxref.mnhn.fr/taxref-web/) (private access only, comparison of 20+ Web APIs in the biodiversity domain). Multiple hands-on sessions experimented successfully with various Web APIs: Flickr, Youtube, Twitter, Spotify, Deezer, Musicbrainz...
-
-[1] Michel F., Faron-Zucker C. and Gandon F. SPARQL Micro-Services: Lightweight Integration of Web APIs and Linked Data. In *Proceedings of the Linked Data on the Web Workshop (LDOW2018)*. [HAL](https://hal.archives-ouvertes.fr/hal-01722792).
-
-[2] Michel F., Zucker C., Gargominy O. & Gandon F. (2018). Integration of Web APIs and Linked Data Using SPARQL Micro-Services—Application to Biodiversity Use Cases. *Information 9(12):310*. [DOI](https://dx.doi.org/10.3390/info9120310), [HAL](https://hal.archives-ouvertes.fr/hal-01947589).
-
-[3] Michel F., Faron-Zucker C., Corby O. and Gandon F. Enabling Automatic Discovery and Querying of Web APIs at Web Scale using Linked Data Standards. In *LDOW/LDDL'19, companion proceedings of the 2019 World Wide Web Conference (WWW'19 Companion)*. [HAL](https://hal.archives-ouvertes.fr/hal-02060966).
-
