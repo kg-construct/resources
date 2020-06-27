@@ -171,3 +171,34 @@ Description of the tools for knowledge graph construction
 
 [MOS2S]: https://www.mos2s.eu/
 [DyVerSIFy]: https://www.imec-int.com/en/what-we-offer/research-portfolio/dyversify
+
+
+## Tool 9:
+- **Name of the tool**: SPARQL micro-services
+- **Description**:
+    The SPARQL Micro-Service architecture is meant to unlock data silos hidden behind proprietary Web APIs by equipping them with a lightweight SPARQL endpoint. The whole idea is about bringing Web APIs into the Web of Data and making it possible to integrate Linked Data and Web APIs within a simple federated SPARQL query. 
+    
+    A SPARQL micro-service encapsulates a Web API and typically yields a **small, resource-centric graph** generated dynamically. It can be seen as a **configurable** SPARQL endpoint in that it expects parameters, e.g. a SPARQL micro-service to find photos from Snapshat may expect tags.
+    
+    An interesting use of SPARQL micro-services is to **assign dereferenceable URIs to Web API resources** that do not have URIs in the first place. For instance, https://sparql-micro-services.org/ld/flickr/photo/31173091626 is the dereferenceable URI of a photo in Flickr. The content is generated dynamically based on the photo identifier.
+- **Repository (link to the tool’s repository)**: https://github.com/frmichel/sparql-micro-service
+- **Website (if is different to the repository)**: example SPARQL micro-services: https://sparql-micro-services.org/
+- **Open source? (If not open sourced, ideally provide an option to test it)**: yes
+- **Year introduced**: 2018
+- **Contact person (who is the main contact person?)**: Franck Michel (franck.michel@cnrs.fr)
+- **Purpose (what can one do with the tool?)**: processor, other
+- **Mapping language**: (which mapping language(s) is supported by the tool) : SPARQL construct
+- **Supported data (formats, sizes)**: mainly JSON-based Web APIs, XML-based Web APIs can be adapted too
+- **Programming language**: php 
+- **Special features**:
+    - Docker deployment ready
+    - Assign dereferenceable URIs to Web API resources (bridge Web APIs and LOD)
+    - Provide provenance information as part of the graph generated
+    - Simple configuration with a config.ini file, or with rich SPARQL Sescription Description and SHACL shapes graph
+    - Dynamic generation of HTML documentation + test interface from the SPARQL micro-service Sescription Description see [example](https://sparql-micro-services.org/service/flickr/getPhotosByTags_sd/))
+    - Autmatic markup of HTML documentation as schema.org Dataset to allow webscale discoverability of SPARQL micro-services, e.g. with Google Dataset Search
+- **DOI**: n/a
+- **License**: Apache 2.0
+- **Test cases**: n/a
+- **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/inria-kg-vs-webapis.md
+- **Related projects**: [Taxref-Web](https://taxref.mnhn.fr/taxref-web/) (private access only, comparison of 20+ Web APIs in the biodiversity domain). Multiple hands-on sessions experimented successfully with various Web APIs: Flickr, Youtube, Twitter, Spotify, Deezer, Musicbrainz...
