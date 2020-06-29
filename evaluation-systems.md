@@ -19,7 +19,7 @@
 
 ## Evaluation System 1:
 - **Name**: Madrid-GTFS-Bench
-- **Description**: Benchmarking for virutal knowledge graph access in the transport domain. 
+- **Description**: Benchmarking for virtual knowledge graph access in the transport domain. 
 - **Repository/Website**: https://github.com/oeg-upm/gtfs-bench
 - **Main Features**: Data format, SPARQL operators, data size, joins
 - **Supported data sources and formats**: Any possible configuration by the user
