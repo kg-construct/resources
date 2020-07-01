@@ -202,3 +202,41 @@ Description of the tools for knowledge graph construction
 - **Test cases**: n/a
 - **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/inria-kg-vs-webapis.md
 - **Related projects**: [Taxref-Web](https://taxref.mnhn.fr/taxref-web/) (private access only, comparison of 20+ Web APIs in the biodiversity domain). Multiple hands-on sessions experimented successfully with various Web APIs: Flickr, Youtube, Twitter, Spotify, Deezer, Musicbrainz...
+
+## Tool 10:
+- **Name of the tool**: WordLift Plugin
+- **Description**: 
+WordLift is a WordPress plugin that brings state-of-the-art semantic technologies to the hands of any blogger and publisher: without requiring any technical skills, it helps produce richer content and organize it by suggests facts and information to provide readers with meaningful context and adding semantic markup to the text to help machines fully understand any website.
+
+Features:
+- Text Analysis: WordLift analyzes content and identifies matching entities organized in 4 categories: Who, What, When and Where.
+- Tag Content: Editors can accept the suggested entities to add contextual info for the user, efficiently selecting internal links to existing content.
+- Create New Entities: Editors can create new entities providing additional context and enriching the web site Knowledge Graph. WordLift will learn and next time they will be detected.
+- Edit Entities: Editors can edit all entities to customize the Knowledge Graph around the web sites' audiences and build new relationships.
+- Images: WordLift suggests open license images and media from own library, saving the time usually spent searching for visuals.
+- Geomaps: Locations in articles can quickly be mapped adding the Geomap widget.
+- Timelines: Events can be displayed chronologically adding the Timeline widget.
+- Chords: Visualize what relates to what in every article adding the Chord widget.
+- Navigator: Recommend relevant articles adding the Navigator widget.
+- Faceted Search: Suggest additional content related to the topics found in your article, letting readers dive into your archive with the Faceted Search widget.
+- Meaningful Navigation: WordLift automatically identifies topics in articles, using Wikipedia’s classification system. This allows to create new entry points for content based on topics, events, people and places.
+- Publish Search Data: WordLift automatically adds schema.org markup articles, allowing search engines to properly index and display content and intelligent agents such as Siri and Alexa to access it.
+- Publish Linked Data: WordLift publishes content’s metadata.
+
+- **Repository**: https://github.com/insideout10/wordlift-plugin
+- **Website**: https://wordlift.io
+- **Open source?**: yes
+- **Year introduced**: 2017
+- **Contact person**: David Riccitelli (david@wordlift.io)
+- **Purpose**: editor, other
+- **Mapping language**: n/a
+- **Supported data**: WordPress, unstructured HTML
+- **Programming language**: PHP, Java, Python
+- **Special features**: NLP, SPARQL, GraphQL, Linked Data, Persistent URIs
+- **DOI**: n/a
+- **License**: GPL
+- **Test cases**: n/a
+- **Related use cases**: https://github.com/kg-construct/use-cases/blob/master/wordlift-salzburgerland.md
+- **Related projects**: [WordLift NG]
+
+[WordLift NG]: https://wordlift.io/blog/en/wordlift-next-generation-receives-grant-from-eu/
