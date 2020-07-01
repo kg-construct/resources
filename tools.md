@@ -206,7 +206,7 @@ Description of the tools for knowledge graph construction
 ## Tool 10:
 - **Name of the tool**: WordLift Plugin
 - **Description**: 
-WordLift is a WordPress plugin that brings state-of-the-art semantic technologies to the hands of any blogger and publisher: without requiring any technical skills, it helps produce richer content and organize it by suggests facts and information to provide readers with meaningful context and adding semantic markup to the text to help machines fully understand any website.
+WordLift is a WordPress plugin that brings state-of-the-art semantic technologies to the hands of any blogger and publisher: without requiring any technical skills, it helps produce richer content and organize it by suggesting facts and information to provide readers with meaningful context and adding semantic markup to the text to help machines fully understand any website.
 
 Features:
 - Text Analysis: WordLift analyzes content and identifies matching entities organized in 4 categories: Who, What, When and Where.
@@ -232,7 +232,7 @@ Features:
 - **Mapping language**: n/a
 - **Supported data**: WordPress, unstructured HTML
 - **Programming language**: PHP, Java, Python
-- **Special features**: NLP, SPARQL, GraphQL, Linked Data, Persistent URIs
+- **Special features**: [Knowledge Graph](https://wordlift.io/blog/en/entity/knowledge-graph/), [Linked Data](https://wordlift.io/blog/en/entity/linked-data/), NLP, SPARQL, GraphQL, Persistent URIs
 - **DOI**: n/a
 - **License**: GPL
 - **Test cases**: n/a
