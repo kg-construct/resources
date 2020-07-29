@@ -279,7 +279,9 @@ Features:
 - **Mapping language**: SPARQL-Generate
 - **Supported data (formats, sizes)**: RDF, SQL, XML, JSON, CSV, GeoJSON, HTML, CBOR, plain text with regular expressions, large CSV documents (unofficially: generation of 17.5 M triples HDT in < 9'20''), MQTT or WebSocket streams, repeated HTTP GET operations. 
 - **Programming language**: Java
-- **Special features**: useable [on the web playground](https://ci.mines-stetienne.fr/sparql-generate/playground.html), [inside Sublime Text](https://ci.mines-stetienne.fr/sparql-generate/sublime.html), [as an executable JAR](https://ci.mines-stetienne.fr/sparql-generate/language-cli.html), [as an open source Java library](https://ci.mines-stetienne.fr/sparql-generate/get-started.html) ;
+- **Special features**: 
+    - useable [on the web playground](https://ci.mines-stetienne.fr/sparql-generate/playground.html), [inside Sublime Text](https://ci.mines-stetienne.fr/sparql-generate/sublime.html), [as an executable JAR](https://ci.mines-stetienne.fr/sparql-generate/language-cli.html), [as an open source Java library](https://ci.mines-stetienne.fr/sparql-generate/get-started.html) ;
+    - can also generate text streams from RDF datasets and document streams in arbitrary format (implements something like [STTL](https://ns.inria.fr/sparql-template/)).
 - **DOI**: https://doi.org/10.5281/zenodo.3965916
 - **License**: Apache 2
 - **Test cases**: see https://ci.mines-stetienne.fr/sparql-generate/playground.html 
