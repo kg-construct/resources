@@ -242,3 +242,26 @@ Features:
 - **Related projects**: [WordLift NG]
 
 [WordLift NG]: https://wordlift.io/blog/en/wordlift-next-generation-receives-grant-from-eu/
+
+
+## Tool 11:
+- **Name of the tool**: RocketRML
+- **Description**: An efficient RML-mapper implementation with Javascript for the RDF mapping language (RML).
+- **Repository (link to the tool’s repository)**: https://github.com/semantifyit/RocketRML
+- **Website (if is different to the repository)**: https://semantifyit.github.io/RocketRML/
+- **Open source? (If not open sourced, ideally provide an option to test it)**: Yes
+- **Year introduced**: 2019
+- **Contact person (who is the main contact person?)**: Umutcan Simsek (umutcan.simsek@sti2.at)
+- **Purpose (what can one do with the tool?)**: Processor
+- **Mapping language**: RML (in Turtle and YARRML syntax)
+- **Supported data (formats, sizes)**: CSV, JSON, XML. Tested with 500k triples (takes ~20s)
+- **Programming language**: Javascript (Node.js)
+- **Special features**: It efficiently maps hierarchical sources by using some caching mechanisms for iterators and JOIN results. Available as a tool with CLI and as an NPM package. A Dockerfile is also provided. Please see the Github repository.
+- **DOI**: n/a
+- **License**: CC-BY-SA-4.0
+- **Test cases**: n/a
+- **Related use cases**: TBD
+- **Related projects**: [semantify.it], [MindLab]
+
+[semantify.it]: https://semantify.it
+[MindLab]: https://mindlab.ai
