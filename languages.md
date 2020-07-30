@@ -34,3 +34,28 @@
 - **website**: RML.io
 - **test-cases**: https://rml.io/test-cases/
 - **contact point**: Anastasia Dimou
+
+## Mapping Language 2:
+- **Name**: SPARQL-Generate
+- **specification**: see [_Maxime Lefrançois, Antoine Zimmermann, Noorani Bakerally A SPARQL extension for generating RDF from heterogeneous formats, In Proc. Extended Semantic Web Conference, ESWC, May 2017, Portoroz, Slovenia_](http://www.maxime-lefrancois.info/docs/LefrancoisZimmermannBakerally-ESWC2017-Generate.pdf) for the specification of the first version.
+- **year**: 2016
+- **syntax**: See [Javacc](https://github.com/sparql-generate/sparql-generate/blob/master/sparql-generate-jena/src/main/javacc/spargl.jj), [extension of YASQE](https://github.com/sparql-generate/sparql-generate-editor/blob/gh-pages/lib/grammar/sparql11-grammar.pl), extension of [Sublime Linked Data package](https://github.com/sparql-generate/sublime-editor/blob/master/src/syntax/sparql-generate.sublime-syntax-source)
+- **description**: SPARQL-Generate is an expressive template-based language to generate RDF streams or text streams from RDF datasets and document streams in arbitrary formats
+- **data source limitations**: no
+- **features**: 
+    - collections/lists [(try out)](https://ci.mines-stetienne.fr/sparql-generate/playground.html#ex=example/generate/08-Lists),
+    - querying named graphs: yes as it's an extension of SPARQL
+    - blank nodes: yes as it's an extension of SPARQL
+    - data transformations/function (the standard SPARQL ones, plus the [SPARQL Function form O. Corby and C. Faron Zucker](http://ns.inria.fr/sparql-extension/#function) ) 
+    - joining data sources: 
+        - By ID, potentially with any data transformation
+        - By structure (e.g., a JSON object’s children are mapped as objects of a relation, or even subjects or predicates of relations)
+        - [try out the example of a query that combines JSON weather station reports with lists of events described in XML documents and obtained from an external web service](https://ci.mines-stetienne.fr/sparql-generate/playground.html#ex=example/generate/06-DifferentSources)
+    - generating RDF streams
+    - generating output as HDT
+    - IRIs or Literals can be generated with bits of different data sources
+    - binary data
+- **website**: 
+    - https://ci.mines-stetienne.fr/sparql-generate/
+- **test-cases**: https://ci.mines-stetienne.fr/sparql-generate/playground.html
+- **contact point**: Maxime Lefrançois, EMSE Saint-Étienne

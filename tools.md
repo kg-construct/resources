@@ -265,3 +265,31 @@ Features:
 
 [semantify.it]: https://semantify.it
 [MindLab]: https://mindlab.ai
+
+
+## Tool 12:
+- **Name of the tool**: SPARQL-Generate
+- **Description**: SPARQL-Generate is an expressive template-based language to generate RDF streams or text streams from RDF datasets and document streams in arbitrary formats
+- **Repository (link to the tool’s repository)**: https://github.com/sparql-generate/sparql-generate
+- **Website (if is different to the repository)**: https://ci.mines-stetienne.fr/sparql-generate/
+- **Open source? (If not open sourced, ideally provide an option to test it)**: yes
+- **Year introduced**: 2016
+- **Contact person (who is the main contact person?)**: Maxime Lefrançois, MINES Saint-Étienne
+- **Purpose (what can one do with the tool?)**: Processor
+- **Mapping language**: SPARQL-Generate
+- **Supported data (formats, sizes)**: RDF, SQL, XML, JSON, CSV, GeoJSON, HTML, CBOR, plain text with regular expressions, large CSV documents (unofficially: generation of 17.5 M triples HDT in < 9'20''), MQTT or WebSocket streams, repeated HTTP GET operations. 
+- **Programming language**: Java
+- **Special features**: 
+    - useable [on the web playground](https://ci.mines-stetienne.fr/sparql-generate/playground.html), [inside Sublime Text](https://ci.mines-stetienne.fr/sparql-generate/sublime.html), [as an executable JAR](https://ci.mines-stetienne.fr/sparql-generate/language-cli.html), [as an open source Java library](https://ci.mines-stetienne.fr/sparql-generate/get-started.html) ;
+    - can also generate text streams from RDF datasets and document streams in arbitrary format (implements something like [STTL](https://ns.inria.fr/sparql-template/)).
+- **DOI**: https://doi.org/10.5281/zenodo.3965916
+- **License**: Apache 2
+- **Test cases**: see https://ci.mines-stetienne.fr/sparql-generate/playground.html 
+- **Related projects**: [ITEA2 12004 SEAS (Smart Energy Aware Systems)], [ANR 14-CE24-0029 OpenSensingCity], [ETSI STF 578], bilateral research contracts with ENGIE R&D CRIGEN, [ANR 19-CE23-0012 CoSWoT], [ANR HyperAgents].
+
+[ITEA2 12004 SEAS (Smart Energy Aware Systems)]: https://itea3.org/project/seas.html
+[ANR 14-CE24-0029 OpenSensingCity]: https://anr.fr/Project-ANR-14-CE24-0029
+[ETSI STF 578]: https://portal.etsi.org/STF/STFs/STF-HomePages/STF578 
+[ANR 19-CE23-0012 CoSWoT]: https://anr.fr/Project-ANR-19-CE23-0012
+[ANR HyperAgents]: http://hyperagents.gitlab.emse.fr/
+
