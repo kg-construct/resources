@@ -293,3 +293,22 @@ Features:
 [ANR 19-CE23-0012 CoSWoT]: https://anr.fr/Project-ANR-19-CE23-0012
 [ANR HyperAgents]: http://hyperagents.gitlab.emse.fr/
 
+## Tool 13:
+- **Name of the tool**: ShExML
+- **Description**: ShExML engine and webapp
+- **Repository**: https://github.com/herminiogg/ShExML
+- **Website (if is different to the repository)**: http://shexml.herminiogarcia.com
+- **Open source?**: yes
+- **Year introduced**: 2019
+- **Contact person**: Herminio García González (garciaherminio@uniovi.es)
+- **Purpose**: Processor (executes rules to generate a knowledge graph), editor (automatically o manually generation of mapping rules), translator (convert ShExML rules to RML rules)
+- **Mapping language**: ShExML
+- **Supported data**: XML, JSON, CSV.
+- **Programming language**: Scala
+- **Special features**: N/A
+- **DOI**: N/A
+- **License**: Not yet decided
+- **Test cases**: https://github.com/herminiogg/ShExML/tree/master/src/test/scala-2.12/es/weso/shexml (sbt test and [CI](https://travis-ci.org/github/herminiogg/ShExML))
+- **Related use cases**: [Asturian Notaries Manuscripts](https://github.com/kg-construct/use-cases/blob/master/uniovi-notaries.md)
+- **Related projects**: N/A
+
