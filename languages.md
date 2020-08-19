@@ -59,3 +59,22 @@
     - https://ci.mines-stetienne.fr/sparql-generate/
 - **test-cases**: https://ci.mines-stetienne.fr/sparql-generate/playground.html
 - **contact point**: Maxime Lefrançois, EMSE Saint-Étienne
+
+## Mapping Language 3:
+- **Name**: ShExML
+- **specification**: http://shexml.herminiogarcia.com/spec/ 
+- **year**: 2019
+- **syntax**: Based on ShEx syntax but with its own grammar ([ANTLR4 grammar](https://github.com/herminiogg/ShExML/blob/master/src/main/java/es/weso/antlr/ShExMLParser.g4))
+- **description**: ShExML is a language based on ShEx to map and merge heterogeneous data sources. It is designed with usability in mind trying to make the script creation easier to the users.
+- **data source limitations**: no
+- **features (select from the list)**: 
+  - collections/lists → yes
+  - named graphs → no (future extension)
+  - blank nodes → yes
+  - data transformations/functions → limited ones (see [String operators](http://shexml.herminiogarcia.com/spec/#string-operation-over-iterators) and [Matchers](http://shexml.herminiogarcia.com/spec/#string-operation-over-iterators)), planning to add an extensible function library
+  - joining data sources:
+    - By ID: [JOIN keyword](http://shexml.herminiogarcia.com/spec/#join-over-iterators)
+    - By structure: [Shape linking](http://shexml.herminiogarcia.com/spec/#linking-shapes)
+- **website**: http://shexml.herminiogarcia.com/
+- **test-cases**: https://github.com/herminiogg/ShExML/tree/master/src/test/scala-2.12/es/weso/shexml
+- **contact point**: Herminio García González (garciaherminio@uniovi.es)
