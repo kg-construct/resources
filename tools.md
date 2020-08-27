@@ -312,3 +312,22 @@ Features:
 - **Related use cases**: [Asturian Notaries Manuscripts](https://github.com/kg-construct/use-cases/blob/master/uniovi-notaries.md)
 - **Related projects**: N/A
 
+## Tool 14:
+- **Name of the tool**: CARML
+- **Description**: An extensible RML mapping engine with built-in support for JSON, CSV, and XML
+- **Repository (link to the tool’s repository)**: https://github.com/carml/carml
+- **Website (if is different to the repository)**:
+- **Open source? (If not open sourced, ideally provide an option to test it)**: Yes
+- **Year introduced**: 2017
+- **Contact person (who is the main contact person?)**: Pano Maria (pano@skemu.com)
+- **Purpose (what can one do with the tool?)**: Processor
+- **Mapping language**: RML
+- **Supported data (formats, sizes)**: CSV, JSON, XML
+- **Programming language**: JAVA
+- **Special features**: Easily extensible for other formats. InputStream extension for easy programmatic binding of sources. XML document extension to be able to use namespace prefix mappings in XPath expressions. Support for FnO functions. 
+- **DOI**: n/a
+- **License**: MIT
+- **Test cases**: https://rml.io/test-cases/
+- **Related use cases**: [Kadaster Data Platform](https://github.com/kg-construct/use-cases/blob/master/kadaster-ld.md)
+- **Related projects**: [Kadaster Data Platform (PDOK)](https://www.pdok.nl/), [Zazuko XRM](https://zazuko.com/products/expressive-rdf-mapper/), [DotWebStack Framework](https://github.com/dotwebstack/dotwebstack-framework/)
+
