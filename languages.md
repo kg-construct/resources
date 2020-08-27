@@ -68,7 +68,7 @@
 - **description**: ShExML is a language based on ShEx to map and merge heterogeneous data sources. It is designed with usability in mind trying to make the script creation easier to the users.
 - **data source limitations**: no
 - **features (select from the list)**: 
-  - collections/lists → yes
+  - collections/lists → no
   - named graphs → no (future extension)
   - blank nodes → yes
   - data transformations/functions → limited ones (see [String operators](http://shexml.herminiogarcia.com/spec/#string-operation-over-iterators) and [Matchers](http://shexml.herminiogarcia.com/spec/#string-operation-over-iterators)), planning to add an extensible function library
