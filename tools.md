@@ -331,3 +331,21 @@ Features:
 - **Related use cases**: [Kadaster Data Platform](https://github.com/kg-construct/use-cases/blob/master/kadaster-ld.md)
 - **Related projects**: [Kadaster Data Platform (PDOK)](https://www.pdok.nl/), [Zazuko XRM](https://zazuko.com/products/expressive-rdf-mapper/), [DotWebStack Framework](https://github.com/dotwebstack/dotwebstack-framework/)
 
+## Tool 15:
+- **Name of the tool**: Helio
+- **Description**: Helio is a framework that allows publishing RDF data from different heterogeneous sources as Linked Data
+- **Repository (link to the tool’s repository)**: https://github.com/oeg-upm/Helio
+- **Website (if is different to the repository)**: https://oeg-upm.github.io/Helio/
+- **Open source? (If not open sourced, ideally provide an option to test it)**: Yes
+- **Year introduced**: 2018
+- **Contact person (who is the main contact person?)**: Andrea Cimmino (cimmino@fi.upm.es)
+- **Purpose (what can one do with the tool?)**: Processor (executes rules to generate a knowledge graph),  Publish Knowledge Graph.
+- **Mapping language**: RML, WoT-Mapping, and Helio mapping
+- **Supported data (formats, sizes)**: CSV, XML, HTML, text, JSON, RDF
+- **Programming language**: Java
+- **Special features**: relies on a plugin sistem that does not require developers to download the core code, customizable html views, can integrate existing tools that generate RDF.
+- **DOI**:
+- **License**: APACHE 2.0
+- **Test cases**: (if any for the supported languages)
+- **Related use cases**: -
+- **Related projects**: [VICINITY H2020](https://www.vicinity2020.eu/vicinity/), [DELTA H2020](https://www.delta-h2020.eu/), [BIMER H2020](https://bimerr.eu/about/)
