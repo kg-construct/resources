@@ -349,3 +349,22 @@ Features:
 - **Test cases**: (if any for the supported languages)
 - **Related use cases**: -
 - **Related projects**: [VICINITY H2020](https://www.vicinity2020.eu/vicinity/), [DELTA H2020](https://www.delta-h2020.eu/), [BIMER H2020](https://bimerr.eu/about/)
+
+## Tool 16:
+- **Name of the tool**: FunMap
+- **Description**: FunMap is an interpreter of RML+FnO that converts a data integration system defined using RML+FnO into an equivalent data integration system where RML mappings are function-free.
+- **Repository (link to the tool’s repository)**: https://github.com/SDM-TIB/FunMap
+- **Open source? (If not open sourced, ideally provide an option to test it)**: Yes
+- **Year introduced**: 2020
+- **Contact person (who is the main contact person?)**: Samaneh Jozashoori (samaneh.jozashoori@tib.eu)
+- **Purpose (what can one do with the tool?)**:  It can be applied when pre-processing step is provided in the context of mapping rules as functions; i.e. the data pre-processing is supposed to be performed at the time of data model transformation (into RDF) and knowledge graph creation.
+- **Mapping language**: RML (current version)
+- **Supported data (formats, sizes)**: CSV, RDB
+- **Programming language**: Python
+- **Special features**: FunMap empowers the knowledge graph creation process with optimization techniques to reduce execution time.
+- **DOI**: https://doi.org/10.5281/zenodo.3993657
+- **License**: Apache-2.0
+- **Test cases**: 
+- **Related use cases**: 
+- **Related projects**: [CLARIFY](https://www.clarify2020.eu/), [P4-LUCAT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/p4-lucat)
+
