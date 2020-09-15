@@ -364,7 +364,7 @@ Features:
 - **Special features**: FunMap empowers the knowledge graph creation process with optimization techniques to reduce execution time.
 - **DOI**: https://doi.org/10.5281/zenodo.3993657
 - **License**: Apache-2.0
-- **Test cases**: 
-- **Related use cases**: 
-- **Related projects**: [CLARIFY](https://www.clarify2020.eu/), [P4-LUCAT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/p4-lucat)
+- **Test cases**: - 
+- **Related use cases**: -
+- **Related projects**: [CLARIFY](https://www.clarify2020.eu/), [P4-LUCAT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/p4-lucat), [Ciudades Abiertas](https://ciudades-abiertas.es/)
 
