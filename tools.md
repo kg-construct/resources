@@ -1,4 +1,4 @@
-# Knwoledge Graph Construction Tools
+# Knowledge Graph Construction Tools
 Description of the tools for knowledge graph construction
 
 ## Tool X (TEMPLATE):
