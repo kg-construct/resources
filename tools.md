@@ -368,3 +368,18 @@ Features:
 - **Related use cases**: -
 - **Related projects**: [CLARIFY](https://www.clarify2020.eu/), [P4-LUCAT](https://www.tib.eu/de/forschung-entwicklung/projektuebersicht/projektsteckbrief/p4-lucat), [Ciudades Abiertas](https://ciudades-abiertas.es/)
 
+## Tool 17:
+- **Name of the tool**: Squerall
+- **Description**: An implementation of the so-called _Semantic Data Lake_, a query engine _uniformly_ accessing original large and heterogeneous data sources using Semantic Web principles and technologies
+- **Repository (link to the tool’s repository)**: https://github.com/EIS-Bonn/Squerall
+- **Website (if is different to the repository)**: https://eis-bonn.github.io/Squerall/
+- **Open source? (If not open sourced, ideally provide an option to test it)**: Yes
+- **Year introduced**: 2017.
+- **Contact person (who is the main contact person?)**: Mohamed Nadjib Mami (mohamed.nadjib.mami@gmail.com)
+- **Purpose (what can one do with the tool?)**: Processor (executes rules to generate a knowledge graph). Squerall is a virtual OBDA (Ontology Based Data Access) engine, where a knowledge graph is only constirbuted _on-the-fly_ at query-time. However, with a slight development effort, it would be possible to physically materialize the knowledge graph (in RDF) following a property table partitining-like scheme.
+- **Mapping language**: RML
+- **Supported data (formats, sizes)**: CSV, Parquet, MongoDB, Cassandra, JDBC (MySQL, SQL Server, etc.), (beta) Elasticsearch. Squerall can be [extended](https://github.com/EIS-Bonn/Squerall#extensibility) to support other sources
+- **Programming language**: Scala, Java
+- **Special features**: Use SPARQL to query popular distributed data sources, e.g. files in Hadoop, NoSQL stores _on-the-fly_ i.e. without requiring pre-processing or ingestion. Disparate data may be joinable by declaratively altering some of its atrributes thanks to the use of the FnO ontology. State-of-the-art Big Data query engines are used for the querying, namely Apache Spark and Presto. Squerall can programmatically be [extended](https://github.com/EIS-Bonn/Squerall#extensibility) to use another query engines e.g. Drill or Dremio)
+- **DOI**: https://zenodo.org/record/2636436#.X3tOY_kzZPY
+- **License**: Apache-2.0
