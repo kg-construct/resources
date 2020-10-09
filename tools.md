@@ -383,3 +383,19 @@ Features:
 - **Special features**: Use SPARQL to query popular distributed data sources, e.g. files in Hadoop, NoSQL stores _on-the-fly_ i.e. without requiring pre-processing or ingestion. Disparate data may be joinable by declaratively altering some of its atrributes thanks to the use of the FnO ontology. State-of-the-art Big Data query engines are used for the querying, namely Apache Spark and Presto. Squerall can programmatically be [extended](https://github.com/EIS-Bonn/Squerall#extensibility) to use another query engines e.g. Drill or Dremio)
 - **DOI**: https://zenodo.org/record/2636436#.X3tOY_kzZPY
 - **License**: Apache-2.0
+
+## Tool 18:
+- **Name of the tool**: Chimera
+- **Description**: Chimera is a tool to build conversion pipelines leveraging Semantic Web technologies.  It is built on-top of Apache Camel to easily configure message-to-message mediators or batch converters using lifting/lowering procedures to/from a reference ontology. In principle the aim is to completely avoid coding by just configuring a pipeline using the various blocks provided.
+- **Repository (link to the tool’s repository)**: [https://github.com/cefriel/chimera](https://github.com/cefriel/chimera)
+- **Open source?** : YES
+- **Year introduced**: 2019
+- **Contact person (who is the main contact person?)**: Mario Scrocca ([mario.scrocca@cefriel.com](mailto:mario.scrocca@cefriel.com))
+- **Purpose (what can one do with the tool?)**: A basic Chimera pipeline involves a lifting Processor (fork of the RMLMapper) Tool and a lowering Processor ([rdf-lowerer](https://github.com/cefriel/rdf-lowerer) built on Apache Velocity). Additional blocks, e.g., for pre-processing/enrichment of the knowledge graph, can be integrated in the pipeline.
+- **Mapping language**: RML for lifting, _extended_ VTL (Velocity Template Language) for lowering
+- **Supported data (formats, sizes)**: CSV, JSON, XML
+- **Programming language**: Java
+- **Special features**: High configurability of pipelines to satisfy different data integration requirements using Semantic Web Technologies. Easy to integrate with existing data sources and sinks thanks to Apache Camel components.
+- **License**: Apache-2.0
+- **Related use cases**:https://github.com/kg-construct/use-cases/blob/master/oeg-publictransport.md
+- **Related projects**: http://sprint-transport.eu/
