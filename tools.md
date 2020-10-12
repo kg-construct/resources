@@ -399,3 +399,21 @@ Features:
 - **License**: Apache-2.0
 - **Related use cases**:https://github.com/kg-construct/use-cases/blob/master/oeg-publictransport.md
 - **Related projects**: http://sprint-transport.eu/
+
+
+
+## Tool 19:
+- **Name of the tool**: Ontario
+- **Description**: A federated query processing engine that is able to access heterogeneous data sources in a Semantic Data Lake. Ontario leverages the concept of RDF Molecule Templates to effectively and efficeintly decompose, plan and execute SPARQL queries over a federation of data sources. The given SPARQL queries are transformed to the query languages of data sources in a Semantic Data Lake using the mapping rules expressed uring RML language.  
+- **Repository (link to the tool’s repository)**: https://github.com/SDM-TIB/Ontario
+- **Website (if is different to the repository)**: https://labs.tib.eu/info/projekt/ontario/
+- **Open source? (If not open sourced, ideally provide an option to test it)**: Yes
+- **Year introduced**: 2017.
+- **Contact person (who is the main contact person?)**: Kemele M. Endris (kemele.endris@gmail.com)
+- **Purpose (what can one do with the tool?)**: Processor. Ontario is able to answer SPARQL SELECT queries over heterogeneous data sources; CSV, JSON, XML, RDBMS, Neo4j, MongoDB, RDF. Non-RDF data is transformed on-the-fly during query time. Ontario also support SPARQL CONSTRUCT queries to transform data from a Semantic Data Lake to RDF.
+- **Mapping language**: RML
+- **Supported data (formats, sizes)**: CSV, Parquet, MongoDB, JDBC (MySQL, Postgres, Neo4j, RDF.
+- **Programming language**: Python
+- **DOI**: http://doi.org/10.1007/978-3-030-27615-7_29
+- **License**: GNU/GPL v2
+
