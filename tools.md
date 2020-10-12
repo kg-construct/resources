@@ -417,3 +417,18 @@ Features:
 - **DOI**: http://doi.org/10.1007/978-3-030-27615-7_29
 - **License**: GNU/GPL v2
 
+## Tool 20:
+- **Name of the tool**: Gra.fo
+- **Description**: a visual, collaborative and real-time knowledge graph schema and mapping tool 
+- **Repository (link to the tool’s repository)**: N/A
+- **Website (if is different to the repository)**: https://gra.fo/
+- **Open source? (If not open sourced, ideally provide an option to test it)**: No. https://gra.fo/
+- **Year introduced**: 2019 
+- **Contact person (who is the main contact person?)**: Juan Sequeda (juan@data.world)
+- **Purpose (what can one do with the tool?)**: Editor. Gra.fo in conjunction with data.world provides virtualization 
+- **Mapping language**: R2RML
+- **Supported data (formats, sizes)**: Any relational databases and CSV/XLS connected in data.world
+- **Programming language**: Commercial tool
+- **Special features**: Visual (drag and drop), Collaborative (Share document with different permissions, history, comments), Real-Time (multiple users at the same time collaborating)
+- **DOI**: N/A
+- **License**: https://gra.fo/terms-and-conditions/
